@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+<title></title>
+</head>
+<body>
+	<script>
+		let value2=prompt("enter number")
+		let sum2=0;
+		while(value2>0){
+			var rem2=value2%10;
+			if(rem2%2==1){
+				sum2=sum2+rem2;
+			}
+			value2=(value2-rem2)/10;
+		}
+		console.log(sum2);
+	</script>
+</body>
+</html>
